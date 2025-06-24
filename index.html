@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en" class="page">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title>Template</title>
+  <link rel="preload" href="fonts/Inter-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Inter-Medium.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Inter-SemiBold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Inter-Bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Inter-Black.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+
+<body class="page__body">
+  <div class="site-container">
+    <header class="header">
+  <div class="container">
+    <div class="header__inner">
+      <a href="#!" class="header__logo" data-aos="fade-down">
+        <img loading="lazy" src="img/logo.png" width="50" height="50" alt="">
+        <span>Planto.</span>
+      </a>
+      <nav class="header__nav menu" data-menu>
+        <ul class="menu__list">
+          <li class="menu__item" data-aos="fade-down" data-aos-delay="50"><a href="#!" class="menu__link">Home</a></li>
+          <li class="menu__item" data-aos="fade-down" data-aos-delay="100">
+            <button class="menu__btn btn-reset" data-js-dropdown-button>Plants Type</button>
+            <div class="dropdown" data-js-dropdown-menu>
+              <ul class="dropdown__list list-reset">
+                <li class="dropdown__item">
+                  <a href="#" class="dropdown__link">Item - 1</a>
+                </li>
+                <li class="dropdown__item">
+                  <a href="#" class="dropdown__link">Item - 1</a>
+                </li>
+                <li class="dropdown__item">
+                  <a href="#" class="dropdown__link">Item - 1</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="menu__item" data-aos="fade-down" data-aos-delay="150"><a href="#!" class="menu__link">More</a></li>
+          <li class="menu__item" data-aos="fade-down" data-aos-delay="200"><a href="#!" class="menu__link">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header__action">
+        <div class="header__search" data-aos="fade-down" data-aos-delay="250">
+          <form action="#!" class="header__form search">
+            <div class="search__field">
+              <input class="search__input" type="text" name="header-search" id="header-search" placeholder="Search...">
+              <button class="btn-reset search__btn-close" type="button"></button>
+            </div>
+            <button class="btn-reset search__submit" type="submit"></button>
+          </form>
+        </div>
+        <button type="button" class="header__cart btn-reset modal-btn" data-path="modal-cart" data-aos="fade-down" data-aos-delay="300"><img loading="lazy" src="img/icon-cart.png" width="26" height="26" alt=""></button>
+        <button class="btn-reset burger" aria-label="Open menu" aria-expanded="false" data-burger>
+          <span class="burger__line"></span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="modals">
+    <div class="modal-overlay">
+      <div class="modal modal-cart" data-target="modal-cart">
+        <button class="modal-close btn-reset">&#215;</button>Basket contents
+      </div>
+      <div class="modal modal-video" data-target="modal-video">
+        <button class="modal-close btn-reset">&#215;</button>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/qb4gIVXHtRw?si=TaEEmSk7PgRzDyHb" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+
+</header>
+
+    <main class="main">
+      <section class="hero" style="background-image: url('img/main-bg.jpg');">
+        <div class="container">
+          <div class="hero__content">
+            <div class="hero__body">
+              <div class="hero__wrap">
+                <h1 class="hero__title" data-aos="fade-up">Breath Natureal</h1>
+                <div class="hero__subtitle" data-aos="fade-up" data-aos-delay="50">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="hero__buttons">
+                  <button class="hero__btn button btn-reset" data-aos="fade-up" data-aos-delay="100">Explore</button>
+                  <div class="hero__video" data-aos="fade-up" data-aos-delay="150">
+                    <button class="hero__btn-play btn-reset modal-btn" data-path="modal-video"><img loading="lazy" src="img/play.png" width="23" height="26" alt=""></button>
+                    <span>Live Demo...</span>
+                  </div>
+                </div>
+              </div>
+              <div class="hero__wrap">
+                <div class="hero__testimonials testimonials-hero" data-aos="fade-up" data-aos-delay="250">
+                  <div class="testimonials-hero__wrap">
+                    <div class="testimonials-hero__avatar">
+                      <img loading="lazy" src="img/avatar-1.jpg" width="64" height="64" alt="">
+                    </div>
+                    <div class="testimonials-hero__name-starts">
+                      <div class="testimonials-hero__name">Alena Patel</div>
+                      <div class="testimonials-hero__raiting rating" data-total-value="3">
+                        <div class="rating__item" data-item-value="5">&#9733;</div>
+                        <div class="rating__item" data-item-value="4">&#9733;</div>
+                        <div class="rating__item" data-item-value="3">&#9733;</div>
+                        <div class="rating__item" data-item-value="2">&#9733;</div>
+                        <div class="rating__item" data-item-value="1">&#9733;</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="testimonials-hero__text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt...</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="hero__slider" data-aos="fade-up" data-aos-delay="200">
+              <div class="swiper slider-hero">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide slider-hero__slide">
+                    <div class="slider-hero__wrapper">
+                      <div class="slider-hero__image">
+                        <img loading="lazy" src="img/plant-1.png" width="440" height="440" alt="">
+                      </div>
+                      <div class="slider-hero__body">
+                        <div class="slider-hero__suptitle">Trendy House Plant</div>
+                        <a href="#!" class="slider-hero__name">Calathea plant</a>
+                        <button class="slider-hero__btn button btn-reset">Buy Now</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide slider-hero__slide">
+                    <div class="slider-hero__wrapper">
+                      <div class="slider-hero__image">
+                        <img loading="lazy" src="img/plant-2.png" width="440" height="440" alt="">
+                      </div>
+                      <div class="slider-hero__body">
+                        <div class="slider-hero__suptitle">Trendy House Plant</div>
+                        <a href="#!" class="slider-hero__name">Calathea plant</a>
+                        <button class="slider-hero__btn button btn-reset">Buy Now</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide slider-hero__slide">
+                    <div class="slider-hero__wrapper">
+                      <div class="slider-hero__image">
+                        <img loading="lazy" src="img/plant-3.png" width="440" height="440" alt="">
+                      </div>
+                      <div class="slider-hero__body">
+                        <div class="slider-hero__suptitle">Trendy House Plant</div>
+                        <a href="#!" class="slider-hero__name">Calathea plant</a>
+                        <button class="slider-hero__btn button btn-reset">Buy Now</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"><img loading="lazy" src="img/right-arrow.png" width="20" height="20" alt=""></div>
+              </div>
+            </div>
+          </div>
+          <div class="hero__trandy">
+            <h2 class="title" data-aos="fade-up">Our Trendy plants
+              <img loading="lazy" src="img/corner-top.png" width="68" height="68" alt="">
+              <img loading="lazy" src="img/corner-bottom.png" width="68" height="68" alt="">
+            </h2>
+            <ul class="hero__list">
+              <li class="hero__item" data-aos="fade-up">
+                <div class="hero__item-image">
+                  <img loading="lazy" src="img/plant-md-1.png" width="660" height="630" alt="">
+                </div>
+                <div class="hero__item-body">
+                  <h3 class="hero__item-title">For Small Decs Ai Plat</h3>
+                  <div class="hero__item-subtitle">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                  </div>
+                  <div class="hero__item-price">Rs. 599/-</div>
+                  <div class="hero__item-buttons">
+                    <button class="hero__item-btn btn-reset button">Explore</button>
+                    <button class="hero__item-btn-cart btn-reset"><img loading="lazy" src="img/icon-cart-bigger.png" width="34" height="34" alt=""></button>
+                  </div>
+                </div>
+              </li>
+              <li class="hero__item" data-aos="fade-up">
+                <div class="hero__item-image">
+                  <img loading="lazy" src="img/plant-md-2.png" width="660" height="630" alt="">
+                </div>
+                <div class="hero__item-body">
+                  <h3 class="hero__item-title">For Fresh Decs Ai Plat</h3>
+                  <div class="hero__item-subtitle">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                  </div>
+                  <div class="hero__item-price">Rs. 579/-</div>
+                  <div class="hero__item-buttons">
+                    <button class="hero__item-btn btn-reset button">Explore</button>
+                    <button class="hero__item-btn-cart btn-reset"><img loading="lazy" src="img/icon-cart-bigger.png" width="34" height="34" alt=""></button>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="products">
+        <div class="container">
+          <h2 class="products__title title" data-aos="fade-up">Our Top Selling
+            <img loading="lazy" src="img/corner-top.png" width="68" height="68" alt="">
+            <img loading="lazy" src="img/corner-bottom.png" width="68" height="68" alt="">
+          </h2>
+          <ul class="products__list">
+            <li class="products__item card" data-aos="fade-up">
+              <div class="card__image">
+                <img loading="lazy" src="img/plant-1.png" width="440" height="440" alt="">
+              </div>
+              <a href="#!" class="card__link">Calathea plant</a>
+              <div class="card__descr">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+              </div>
+              <div class="card__footer">
+                <div class="card__price">Rs. 359/-</div>
+                <button class="card__cart btn-reset"><img loading="lazy" src="img/icon-cart-md.png" width="27" height="27" alt=""></button>
+              </div>
+            </li>
+            <li class="products__item card" data-aos="fade-up">
+              <div class="card__image">
+                <img loading="lazy" src="img/plant-2.png" width="440" height="440" alt="">
+              </div>
+              <a href="#!" class="card__link">Calathea plant</a>
+              <div class="card__descr">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+              </div>
+              <div class="card__footer">
+                <div class="card__price">Rs. 359/-</div>
+                <button class="card__cart btn-reset"><img loading="lazy" src="img/icon-cart-md.png" width="27" height="27" alt=""></button>
+              </div>
+            </li>
+            <li class="products__item card" data-aos="fade-up">
+              <div class="card__image">
+                <img loading="lazy" src="img/plant-3.png" width="440" height="440" alt="">
+              </div>
+              <a href="#!" class="card__link">Calathea plant</a>
+              <div class="card__descr">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+              </div>
+              <div class="card__footer">
+                <div class="card__price">Rs. 359/-</div>
+                <button class="card__cart btn-reset"><img loading="lazy" src="img/icon-cart-md.png" width="27" height="27" alt=""></button>
+              </div>
+            </li>
+            <li class="products__item card" data-aos="fade-up">
+              <div class="card__image">
+                <img loading="lazy" src="img/plant-4.png" width="440" height="440" alt="">
+              </div>
+              <a href="#!" class="card__link">Calathea plant</a>
+              <div class="card__descr">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+              </div>
+              <div class="card__footer">
+                <div class="card__price">Rs. 359/-</div>
+                <button class="card__cart btn-reset"><img loading="lazy" src="img/icon-cart-md.png" width="27" height="27" alt=""></button>
+              </div>
+            </li>
+            <li class="products__item card" data-aos="fade-up">
+              <div class="card__image">
+                <img loading="lazy" src="img/plant-5.png" width="440" height="440" alt="">
+              </div>
+              <a href="#!" class="card__link">Calathea plant</a>
+              <div class="card__descr">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+              </div>
+              <div class="card__footer">
+                <div class="card__price">Rs. 359/-</div>
+                <button class="card__cart btn-reset"><img loading="lazy" src="img/icon-cart-md.png" width="27" height="27" alt=""></button>
+              </div>
+            </li>
+            <li class="products__item card" data-aos="fade-up">
+              <div class="card__image">
+                <img loading="lazy" src="img/plant-6.png" width="440" height="440" alt="">
+              </div>
+              <a href="#!" class="card__link">Calathea plant</a>
+              <div class="card__descr">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+              </div>
+              <div class="card__footer">
+                <div class="card__price">Rs. 359/-</div>
+                <button class="card__cart btn-reset"><img loading="lazy" src="img/icon-cart-md.png" width="27" height="27" alt=""></button>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="review">
+        <div class="container">
+          <h2 class="review__title title" data-aos="fade-up">Our Top Selling
+            <img loading="lazy" src="img/corner-top.png" width="68" height="68" alt="">
+            <img loading="lazy" src="img/corner-bottom.png" width="68" height="68" alt="">
+          </h2>
+          <ul class="review__list">
+            <li class="review__item" data-aos="fade-up">
+              <div class="review__wrap">
+                <div class="review__avatar">
+                  <img loading="lazy" src="img/avatar-2.jpg" width="82" height="82" alt="">
+                </div>
+                <div class="review__name-starts">
+                  <div class="review__name">Maxn Raval</div>
+                  <div class="review__raiting rating" data-total-value="3">
+                    <div class="rating__item" data-item-value="5">&#9733;</div>
+                    <div class="rating__item" data-item-value="4">&#9733;</div>
+                    <div class="rating__item" data-item-value="3">&#9733;</div>
+                    <div class="rating__item" data-item-value="2">&#9733;</div>
+                    <div class="rating__item" data-item-value="1">&#9733;</div>
+                  </div>
+                </div>
+              </div>
+              <div class="review__text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+              </div>
+            </li>
+            <li class="review__item" data-aos="fade-up">
+              <div class="review__wrap">
+                <div class="review__avatar">
+                  <img loading="lazy" src="img/avatar-3.jpg" width="82" height="82" alt="">
+                </div>
+                <div class="review__name-starts">
+                  <div class="review__name">Venely Kayt</div>
+                  <div class="review__raiting rating" data-total-value="3">
+                    <div class="rating__item" data-item-value="5">&#9733;</div>
+                    <div class="rating__item" data-item-value="4">&#9733;</div>
+                    <div class="rating__item" data-item-value="3">&#9733;</div>
+                    <div class="rating__item" data-item-value="2">&#9733;</div>
+                    <div class="rating__item" data-item-value="1">&#9733;</div>
+                  </div>
+                </div>
+              </div>
+              <div class="review__text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+              </div>
+            </li>
+            <li class="review__item" data-aos="fade-up">
+              <div class="review__wrap">
+                <div class="review__avatar">
+                  <img loading="lazy" src="img/avatar-4.jpg" width="82" height="82" alt="">
+                </div>
+                <div class="review__name-starts">
+                  <div class="review__name">Lii thakur</div>
+                  <div class="review__raiting rating" data-total-value="3">
+                    <div class="rating__item" data-item-value="5">&#9733;</div>
+                    <div class="rating__item" data-item-value="4">&#9733;</div>
+                    <div class="rating__item" data-item-value="3">&#9733;</div>
+                    <div class="rating__item" data-item-value="2">&#9733;</div>
+                    <div class="rating__item" data-item-value="1">&#9733;</div>
+                  </div>
+                </div>
+              </div>
+              <div class="review__text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="best">
+        <div class="container">
+          <h2 class="best__title title" data-aos="fade-up">Our Best o2
+            <img loading="lazy" src="img/corner-top.png" width="68" height="68" alt="">
+            <img loading="lazy" src="img/corner-bottom.png" width="68" height="68" alt="">
+          </h2>
+          <div class="swiper best__slider" data-aos="fade-up">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide best__slide">
+                <div class="best__slide-wrap">
+                  <div class="best__slide-image">
+                    <img loading="lazy" src="img/plant-big-1.png" width="944" height="1001" alt="">
+                  </div>
+                  <div class="best__slide-body">
+                    <h3 class="best__slide-title">We Have Small And Best O2 Plants Collection’s</h3>
+                    <div class="best__slide-content">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    </div>
+                    <button class="best__slide-btn button btn-reset">Explore</button>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide best__slide">
+                <div class="best__slide-wrap">
+                  <div class="best__slide-image">
+                    <img loading="lazy" src="img/plant-big-2.png" width="811" height="863" alt="">
+                  </div>
+                  <div class="best__slide-body">
+                    <h3 class="best__slide-title">We Have Small And Best O2 Plants Collection’s</h3>
+                    <div class="best__slide-content">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                    </div>
+                    <button class="best__slide-btn button btn-reset">Explore</button>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide best__slide">
+                <div class="best__slide-wrap">
+                  <div class="best__slide-image">
+                    <img loading="lazy" src="img/plant-big-1.png" width="944" height="1001" alt="">
+                  </div>
+                  <div class="best__slide-body">
+                    <h3 class="best__slide-title">We Have Small And Best O2 Plants Collection’s</h3>
+                    <div class="best__slide-content">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    </div>
+                    <button class="best__slide-btn button btn-reset">Explore</button>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide best__slide">
+                <div class="best__slide-wrap">
+                  <div class="best__slide-image">
+                    <img loading="lazy" src="img/plant-big-2.png" width="811" height="863" alt="">
+                  </div>
+                  <div class="best__slide-body">
+                    <h3 class="best__slide-title">We Have Small And Best O2 Plants Collection’s</h3>
+                    <div class="best__slide-content">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                    </div>
+                    <button class="best__slide-btn button btn-reset">Explore</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+
+            <div class="swiper-button-prev"><img loading="lazy" src="img/left-arrow-bigger.png" width="24" height="24" alt=""></div>
+            <div class="swiper-button-next"><img loading="lazy" src="img/right-arrow-bigger.png" width="24" height="24" alt=""></div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+  <div class="container">
+    <div class="footer__body">
+      <div class="footer__content">
+        <a href="#!" class="footer__logo" data-aos="flip-right" data-aos-delay="100" data-aos-duration="1000">
+          <img loading="lazy" src="img/logo-footer.png" width="94" height="94" alt="">
+          <span>Planto.</span>
+        </a>
+        <div class="footer__descr">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+      </div>
+      <div class="footer__quick-links">
+        <h4 class="footer__title">Quick Link’s</h4>
+        <ul>
+          <li><a href="#!">Home</a></li>
+          <li><a href="#!">Type’s Of plant’s</a></li>
+          <li><a href="#!">Contact</a></li>
+          <li><a href="#!">Privacy</a></li>
+        </ul>
+      </div>
+      <div class="footer__subscribe">
+        <h4 class="footer__title">For Every Update.</h4>
+        <form action="#" class="footer__form">
+          <input type="email" name="email" id="email" autocomplete="off" required placeholder="Enter Email">
+          <button type="submit" class="footer__submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer__copyright">
+      <div class="footer__social">
+        <ul>
+          <li><a href="#!">fb</a></li>
+          <li><a href="#!">tw</a></li>
+          <li><a href="#!">li</a></li>
+        </ul>
+      </div>
+      <div class="footer__copy">
+        <p>planto © all right reserve</p>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="js/main.js"></script>
+
+
+  </div>
+</body>
+
+</html>
+
